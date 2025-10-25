@@ -6,8 +6,6 @@ A beautiful, interactive memory card game built with React. Test your memory by 
 
 **[Play the Game Here!](https://astabile-react-magic-memory.netlify.app/)** 🎮
 
-Try it out: [https://astabile-react-magic-memory.netlify.app/](https://astabile-react-magic-memory.netlify.app/)
-
 ## ✨ Features
 
 - **Smooth Card Flip Animations** - Cards flip with elegant CSS transitions
