@@ -2,6 +2,12 @@
 
 A beautiful, interactive memory card game built with React. Test your memory by matching pairs of magical items in this fun and engaging game!
 
+## 🌐 Live Demo
+
+**[Play the Game Here!](https://astabile-react-magic-memory.netlify.app/)** 🎮
+
+Try it out: [https://astabile-react-magic-memory.netlify.app/](https://astabile-react-magic-memory.netlify.app/)
+
 ## ✨ Features
 
 - **Smooth Card Flip Animations** - Cards flip with elegant CSS transitions
@@ -96,6 +102,36 @@ npm run build
 ```
 
 The build folder will contain the optimized app ready for deployment.
+
+## 🚢 Deployment
+
+This app is deployed on **Netlify**: [https://astabile-react-magic-memory.netlify.app/](https://astabile-react-magic-memory.netlify.app/)
+
+### Deploy Your Own
+
+You can easily deploy this app to various platforms:
+
+#### Netlify (Recommended)
+1. Sign up for a free account at [Netlify](https://www.netlify.com/)
+2. Click "New site from Git"
+3. Connect your GitHub repository
+4. Set build command: `npm run build`
+5. Set publish directory: `build`
+6. Click "Deploy site"
+
+#### Vercel
+1. Sign up at [Vercel](https://vercel.com/)
+2. Import your GitHub repository
+3. Vercel will auto-detect Create React App settings
+4. Click "Deploy"
+
+#### GitHub Pages
+1. Install gh-pages: `npm install --save-dev gh-pages`
+2. Add to package.json: `"homepage": "https://astabile.github.io/react-magic-memory"`
+3. Add scripts: 
+   - `"predeploy": "npm run build"`
+   - `"deploy": "gh-pages -d build"`
+4. Run: `npm run deploy`
 
 ## 🔧 Available Scripts
 
